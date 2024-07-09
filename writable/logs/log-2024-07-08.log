@@ -1,0 +1,12 @@
+CRITICAL - 2024-07-08 13:34:04 --> ErrorException: Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\head.php on line 19.
+ 1 APPPATH\Views\head.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant base_url - assumed \'base_url\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\itcrush\\app\\Views\\head.php', 19, [...])
+ 2 APPPATH\Views\index.php(2): include('C:\\xampp\\htdocs\\itcrush\\app\\Views\\head.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\itcrush\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
