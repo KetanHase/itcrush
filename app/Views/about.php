@@ -1,80 +1,28 @@
 <?php include('header.php'); ?>
 <?php include('head.php'); ?>
 <body>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="<?= base_url() ?>public/images/aboutmain.JPG" class="d-block w-100" alt="aboutmain">
+    </div>
+  </div>
+</div>
+<div class="clearboth"></div>
 <section class="us_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Why Choose Us
-        </h2>
-      </div>
-
-      <div class="us_container ">
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/u-1.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  QUALITY EQUIPMENT
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/u-4.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  NUTRITION
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/u-2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  HEALTHY DIET PLAN
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/u-3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  SPORT TRAINING
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
+  <div class="container">
+    <div class="us_container">
+      <div class="row">
+        <div class="col-lg-12 col-md-6">
+        <div class="detail-box">
+          <p>
+          ItCrush Solutions sounds like a versatile company with a strong focus on various web technologies. Specializing in front-end technologies, theme development, WordPress development, and development using React and CodeIgniter positions the company well in the web development market.</div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+<div class="clearboth"></div>
 <?php include('foot.php'); ?>
 <?php include('footer.php'); ?>
 </body>

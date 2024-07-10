@@ -1,5 +1,16 @@
 <?php include('header.php'); ?>
 <?php include('head.php'); ?>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="<?= base_url() ?>public/images/Solutions_banner.png" class="d-block w-100" alt="Solutions_banner">
+    </div>
+  </div>
+</div>
+<div class="clearboth"></div>
+ 
+
+
 <section class="heathy_section layout_padding">
     <div class="container1">
           <h2>

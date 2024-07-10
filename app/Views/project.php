@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('head.php'); ?>
 <section class=" banner">
+<img src="<?= base_url() ?>public/images/project_banner.png"   alt="project_banner" class="banner-img">
         <h1>Projects</h1>
 </section>
 

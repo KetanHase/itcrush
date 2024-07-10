@@ -242,7 +242,7 @@
                     <img src="public/images/css.png" alt="css">
                 </div>
                 <div class="logo">
-                    <img src="public/images/logo7.png" alt="Logo 7">
+                    <img src="public/images/anagular.png" alt="anagular">
                 </div>
             </div>
         </div>

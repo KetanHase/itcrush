@@ -1,7 +1,10 @@
 <?php include('header.php'); ?>
 <?php include('head.php'); ?>
 <body>
- 
+<section class=" banner">
+<img src="<?= base_url() ?>public/images/service_banner.jpg"   alt="service_banner" class="banner-img">
+        <h1>Service</h1>
+</section>
 <section class="us_section layout_padding">
     <div class="container">
       <div class="heading_container">
