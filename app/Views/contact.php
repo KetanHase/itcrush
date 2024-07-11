@@ -3,7 +3,7 @@
 <body class="sub_page">
   <!-- contact section -->
 
-  <section class="contact_section ">
+  <section class="contact_section contact_padding">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 px-0">
@@ -12,24 +12,24 @@
           </div>
         </div>
         <div class="col-lg-5 col-md-6">
-          <div class="form_container pr-0 pr-lg-5 mr-0 mr-lg-2">
+          <div class="form_container pr-0 pr-lg-5 mr-0 mr-lg-2"> 
             <div class="heading_container">
               <h2>
                 Contact Us
               </h2>
             </div>
-            <form action="">
+            <form action="<?= base_url('Contact/create') ?>" method="post">
               <div>
-                <input type="text" placeholder="Name" />
+                <input type="text" name="name"  placeholder="Name" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name="phone" placeholder="Phone Number" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" name="message" class="message-box" placeholder="Message" />
               </div>
               <div class="d-flex ">
                 <button>

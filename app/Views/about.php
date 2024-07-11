@@ -2,7 +2,7 @@
 <?php include('head.php'); ?>
 <body>
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner about_layout">
     <div class="carousel-item active">
         <img src="<?= base_url() ?>public/images/aboutmain.JPG" class="d-block w-100" alt="aboutmain">
     </div>

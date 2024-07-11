@@ -42,7 +42,7 @@
   </section>
   <footer class="container-fluid footer_section">
     <p>
-      &copy; 2023 All Rights Reserved.
-      <a href="/">ItCrush Solutions Pvt.Ltd</a>
+      Copyrights &copy; 2023 <a href="/">ItCrush Solutions Pvt.Ltd</a> All Rights Reserved.
+      
     </p>
   </footer>

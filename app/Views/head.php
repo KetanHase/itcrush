@@ -5,7 +5,7 @@
           <a class="navbar-brand" href="<?= base_url('/') ?>">
           <img src="<?= base_url() ?>public/images/favicon.png" type="image/png">
             <span>
-             ItCrush 
+             ItCrush Tech. Solution
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

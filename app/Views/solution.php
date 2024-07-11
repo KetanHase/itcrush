@@ -39,7 +39,6 @@
                   <h5>
                   Responsive Websites
                   </h5>
-                 
                 </div>
               </div>
         </div>
@@ -52,7 +51,6 @@
                   <h5>
                   e-Commerce
                   </h5>
-                 
                 </div>
               </div>
         </div>
@@ -97,6 +95,7 @@
         </div>
       </div>
     </div>
-    <?php include('foot.php'); ?>
-<?php include('footer.php'); ?>
+    
   </section>
+  <?php include('foot.php'); ?>
+    <?php include('footer.php'); ?>

@@ -349,7 +349,7 @@
                 Contact Us
               </h2>
             </div>
-            <form action="<?= base_url('Contact/create') ?>" method="post">
+            <form action="<?= base_url('Contact/createContact') ?>" method="post">
               <div>
                 <input type="text" name="name" placeholder="Name" />
               </div>
