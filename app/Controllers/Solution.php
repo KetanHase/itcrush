@@ -6,7 +6,7 @@ class Solution extends BaseController
 {
     public function index(): string
     {
-        $data['title'] = 'ItCrush Solution Page';
+        $data['title'] = 'ItCrush | Solution Page';
         return view('solution', $data);
     }
 }
