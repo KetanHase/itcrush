@@ -9,7 +9,7 @@ class Contact extends BaseController
     {
         $contactModel = new ContactModel();
         $data['contacts'] = $contactModel->findAll();
-        $data['title'] = 'ItCrush | Contact Page';
+        $data['title'] = 'ItCrush |Contact Page';
         return view('contact', $data);
     }
 

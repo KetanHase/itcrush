@@ -31,9 +31,8 @@
               <img src="" alt="">
             </div>
             <div class="detail-box">
-              <p>
-                hr@itcrushsolutions.com
-              </p>
+                <a href="mailto:hr@itcrushsolutions.com">hr@itcrushsolutions.com</a>
+               
             </div>
           </div>
         </a>

@@ -96,3 +96,22 @@
         max-width: 1170px;
     }
 }
+
+@media (max-width: 768px) {
+    .us_container .box .img-box-detail {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .web-detail-box {
+        margin-left: 0;
+        padding-top: 50px;
+       
+    }
+    .web-detail-box h5 {
+        text-align: center;
+    }
+    .web-detail-box p {
+        text-align: center;
+    }
+}

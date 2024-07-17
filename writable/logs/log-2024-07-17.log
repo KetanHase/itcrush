@@ -1,0 +1,27 @@
+CRITICAL - 2024-07-17 07:56:58 --> ErrorException: Trying to get property 'name' of non-object
+in APPPATH\Views\contact.php on line 48.
+ 1 APPPATH\Views\contact.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'name\' of non-object', 'C:\\xampp\\htdocs\\itcrush\\app\\Views\\contact.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\itcrush\\app\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(13): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-17 07:59:06 --> ParseError: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\contact.php on line 48.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH\Controllers\Contact.php(13): view('contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Contact->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-17 08:02:59 --> ErrorException: Undefined property: App\Controllers\Contact::$ContactModel
+in APPPATH\Controllers\Contact.php on line 11.
+ 1 APPPATH\Controllers\Contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Contact::$ContactModel', 'C:\\xampp\\htdocs\\itcrush\\app\\Controllers\\Contact.php', 11, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Contact->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

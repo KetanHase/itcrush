@@ -388,10 +388,42 @@ a:focus {
           border-radius: 50%;
           overflow: hidden;
 }
+.us_section .us_container .box .img-box-detail {
+  height: 100px;
+  width: 100px;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+           
+}
+.us_section .us_container .box .img-box-detail img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.us_section .us_container .box .web-detail-box h5 {
+ 
+  font-weight: bold;
+  /*color: #ffffff70;*/
+  transition: color 0.3s ease;
+   
+}
 .us_section .us_container .box .img-box img {
   max-width: 100%;
   object-fit: cover;
+}
+
+.us_section .us_container .box .web-detail-box h5:hover {
+  color: #AB6600; /* Change to red on hover */
+  font-weight: bold;
+  mix-blend-mode: normal;
 }
 
 .us_section .us_container .box .detail-box h5 {
@@ -773,8 +805,9 @@ h5:hover {
   position: relative;
 }
 
-.info_items a {
+.info_items .item  a {
   position: relative;
+  color: white;
 }
 
 .info_items .item .img-box.box-1 {
@@ -788,6 +821,39 @@ h5:hover {
 .info_items .item .img-box.box-3 {
   background-image: url(../images/envelope-white.png);
 }
+
+.web-design-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  margin-left: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container h2 {
+  color: #2a6496;
+}
+
+ 
+
+.text-container ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+ 
 
 /* footer section*/
 .footer_section {
