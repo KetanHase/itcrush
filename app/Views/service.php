@@ -1,10 +1,20 @@
 <?php include('header.php'); ?>
 <?php include('head.php'); ?>
 <body>
-<section class=" banner">
+<!--<section class=" banner">
 <img src="<?= base_url() ?>public/images/service_banner.jpg"   alt="service_banner" class="banner-img">
         <h1>Service</h1>
-</section>
+      </section>--> 
+  
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="<?= base_url() ?>public/images/servicebanner.png" class="d-block w-100" alt="Service Banner">
+    </div>
+  </div>
+</div>
+<div class="clearboth"></div>
 
 <section class="us_section layout_padding">
     <div class="container">
